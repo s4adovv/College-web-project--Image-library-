@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Библиотека фотографий</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<header>
+		<h1><span>P</span><span>I</span><span>C</span>tures</h1>
+		<div class="menu">
+			<input id="tab1" name="menuItems" type="radio" checked>
+			<label id="label1" for="tab1">Главная</label>
+			<input id="tab2" name="menuItems" type="radio">
+			<label id="label2" for="tab2">О нас</label>
+			<input id="tab3" name="menuItems" type="radio">
+			<label id="label3" for="tab3">История</label>
+		</div>
+		<div class="weekImages">
+		<h2>Работы дня</h2>
+		</div>
+	</header>
+	<div class="container">
+		<div class="page selected">
+			<a class="sortBtn" id="howSortBtn">Сортировка по возрастанию</a>
+			<a class="sortBtn" id="whatSortBtn">Сортировка по умолчанию</a>
+			<div id="openImage">
+				<div id="close">x</div>
+				<h1></h1>
+				<h2></h2>
+				<h3 id="raitingText"></h3>
+				<h3 id="dateText"></h3>
+				<img src="">
+				<p></p>
+				<div></div>
+			</div>
+			<div id="images"></div>
+		</div>
+		<div class="page">
+			<h1>Приветствуем вас на нашем сайте!</h1>
+			<p>Здесь вы сможете найти самые лучшие мировые работы графического искусства. С нами работает множнство авторов и владельцев прекрасных художественных работ.</p>
+			<div class="infoContainer">
+				<div class="infoBlock">
+				<h5>Мы располагаемся по адресу: г. Владимир, ул. Большие Ременники, 13, офис 1</h5>
+				<img src="SiteImages/WhereWe.PNG">
+			</div>
+			<div class="infoBlock">
+				<h3>Наша контактная информация</h3>
+				<br>
+				<br>
+				<p>Полное название организации: ООО "PICtures"</p>
+				<p>Телефон справочной службы: 8 (4922) 235-48-01</p>
+				<p>Телефон отдела кадров: 8 (4922) 235-38-11</p>
+				<p>ИНН: 7736207543</p>
+				<p>ОГРН: 1027700229193</p>
+				<p>КПП: 997750001</p>
+			</div>
+			<div class="infoBlock">
+				<h3>Наши сотрудники</h3>
+				<div class="infoPerson">
+					<img src="SiteImages/GenDir.jpg" title="Я">
+					<p>Генеральный директор</p>
+				</div>
+				<div class="infoPerson">
+					<img src="SiteImages/GenFriend.jpg" title="Мой друг">
+					<p>Финансовый директор</p>
+				</div>
+				<div class="infoPerson">
+					<img src="SiteImages/MainProgrammer.jpg" title="Дядя Коля">
+					<p>Главный программист</p>
+				</div>
+				<div class="infoPerson">
+					<img src="SiteImages/MainDesigner.jpg" title="Мой сокурсник">
+					<p>Главный дизайнер</p>
+				</div>
+				<div class="infoPerson">
+					<img src="SiteImages/PRmanager.jpg" title="Соседка">
+					<p>Мeнeджер по маркетингу</p>
+				</div>
+				<div class="infoPerson">
+					<img src="SiteImages/Cleaner.jpg" title="Уборщик Игорь">
+					<p>Ключевая фигура в фирме</p>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="page">
+			<p align="center"><i>"Наша компания начала свое развитие с 2012 года и уже 5 лет успешно процветает и набирает силу."</i></p>
+			<br>
+			<p>Я Васнецов Игорь Петрович, вместе со своим другом Ивашкиным Сергеем Дмитриевичем в один чудесный весенний день придумали идею развития и помощи начинающим художникам... Так и появился будущий ныне сайт <a href="index.html">PICtures.com</a>.</p>
+			<hr>
+			<p>Начинали мы вдвоём, но постепенно набирали популярность собирали множество работ и представляли их Всему миру, чтобы каждый человек знал какие прекрасные вещи может сотворить обычный человек! На сегодняшний день в нашей компании работает более 20 сотрудников и каждый из них превносит огромный вклад в нашу компанию.</p>
+			<p>В конце 2014 года, когда случился упадок Рубля, у нас появились трудности с обеспечением наших сотрудников и сайта в целом. Мы практически стали банкротами, но смелость и решительность всех Нас, помогли преодолеть все трудности нашей компании.</p>
+			<hr>
+			<p>И уже сейчас в 2017 году, я рад приветствовать каждого на нашем сайте и хочу пожелать вам <b>Приятного просмотра!!!</b></p>
+		</div>
+		<div class="scrollTop"><span>/\</span></div>
+	</div>
+	<footer>
+		<p>Copyright © <a href="index.html">PICtures.com</a> 2017 Все права защищены</p>
+	</footer>
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="data.json" charset="UTF-8"></script>
+	<script src="main.js"></script>
+</body>
+</html>
